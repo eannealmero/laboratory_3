@@ -9,7 +9,8 @@ if monthly_salary >= 30000.00:
         # if eligible, ask how many months & add 10% interest increase
         months = int(input("How many months will it take for you to pay? "))
         interest = 0.10
-        total_repay = loan_amount * (1 + interest)  # Calculate total loan with interest
+        # Calculate total loan with interest
+        total_repay = loan_amount * (1 + interest)  
         monthly_repay = total_repay / months
         
         print(f"Your total loan with interest is: {total_repay:.2f}")
