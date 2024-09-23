@@ -17,6 +17,6 @@ if monthly_salary >= 30000.00:
         print(f"Your monthly payment in {months} months will be: {monthly_repay:.2f} ")
         # if not eligible, display a message with a reason to why it is not approved
     else:
-        print("You are not eligible for the loan because the loan amount is beyond your monthly salary.")
+        print("You are not eligible for the loan because the loan amount is beyond 10x your monthly salary.")
 else:
     print("You are not eligible for the loan because your monthly salary is below 30,000.00.")
